@@ -8,7 +8,6 @@ const {
     addFriend,
     removeFriend,
 } = require('../../controllers/userController');
-const { add } = require('../../models/Reaction');
 
 // /api/users`
 router.route('/').get(getUsers).post(createUser);

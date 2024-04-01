@@ -8,7 +8,6 @@ const {
     createReaction,
     deleteReaction,
 } = require('../../controllers/thoughtController');
-const { add } = require('../../models/Reaction');
 
 // /api/thoughts
 router.route('/').get(getThoughts).post(createThought);
